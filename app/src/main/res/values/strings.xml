@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckTV_2_0_2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ResString">RESULT</string>
+    <string name="AdsString">ADVERTISEMENT</string>
+
+    <!--<color name="btnheadUP">#222222</color>
+    <color name="btnheadDOWN">#6ddd12</color>
+    <color name="btnnumpadDOWN">#ff640d</color>
+    <color name="btnnumpadUP">#424242</color>
+    <color name="btnoperationDOWN">#6ddd12</color>
+    <color name="btnoperationUP">#222222</color>
+        -->
+    <color name="btnheadUP">#222222</color>
+    <color name="btnheadDOWN">#ff008200</color>
+    <color name="btnnumpadDOWN">#ff7e0000</color>
+    <color name="btnnumpadUP">#ff525252</color>
+    <color name="btnoperationDOWN">#ff045ebc</color>
+    <color name="btnoperationUP">#222222</color>
+</resources>

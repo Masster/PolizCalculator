@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        android:id="@+id/itemCoutry">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/kz_img"
+            android:scaleType="fitXY"
+            android:id="@+id/imgFlagCountry"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="КАЗАХСТАН"
+                android:id="@+id/tvNameCountry"
+                android:textSize="26sp"
+                android:background="#eeeeee"
+                android:gravity="center_horizontal|bottom"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="12%"
+                android:id="@+id/tvVATCoutry"
+                android:textSize="18sp"
+                android:background="#eeeeee"
+                android:gravity="center_horizontal|top"
+                android:textColor="#333333"/>
+    </LinearLayout>
+
+</LinearLayout>

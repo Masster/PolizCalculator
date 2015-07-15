@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.masstersoft.checktv_2_0_2.app.fragment_HEAD">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                    style="@style/HEAD_tv"
+                    android:text="1 234 567 890.00"
+                    android:id="@+id/tvOUTSumm"
+                    android:lines="1"
+                    android:textSize="22sp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <Button
+                        style="@style/HEAD_btn"
+                        android:text="18%"
+                        android:id="@+id/btnVAT"
+                        android:onClick="onClick"
+                        />
+                <Button
+                        style="@style/HEAD_btn.Check"
+                        android:text="РАСЧЕТ"
+                        android:id="@+id/btnCheck"
+                        android:onClick="onClick"/>
+
+                <Button
+                        style="@style/HEAD_btn"
+                        android:text="CE"
+                        android:id="@+id/btnClear"
+                        android:onClick="onClick"/>
+            </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

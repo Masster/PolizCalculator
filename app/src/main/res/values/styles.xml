@@ -1,0 +1,82 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+    </style>
+
+    <style name="HEAD_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:hapticFeedbackEnabled">true</item>
+        <item name="android:layout_margin">@dimen/MarginSize</item>
+        <item name="android:background">@drawable/btnhead</item>
+    </style>
+    <style name="HEAD_btn.Check">
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="HEAD_tv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:textColor">#ff222222</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_margin">@dimen/MarginSize</item>
+        <item name="android:background">@drawable/lcdhead</item>
+        <!--<item name="android:background">@drawable/button</item>  -->
+    </style>
+
+    <style name="KEYBOARD">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:background">@drawable/btnnumpad</item>
+        <item name="android:layout_margin">@dimen/MarginSize</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:onClick">"onClickKeyBoard"</item>
+    </style>
+    <style name="KEYBOARD.numpad">
+        <item name="android:background">@drawable/btnnumpad</item>
+    </style>
+    <style name="KEYBOARD.operations">
+        <item name="android:background">@drawable/btnoperation</item>
+    </style>
+
+    <style name="KEYBOARD.operations.dlg_ok">
+        <item name="android:background">@drawable/btn_dlg_ok</item>
+    </style>
+
+    <style name="KEYBOARD.operations.dlg_clear">
+        <item name="android:background">@drawable/btn_dlg_clear</item>
+    </style>
+
+    <style name="RESULT">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">#ff222222</item>
+
+    </style>
+    <style name="RESULT.left">
+        <item name="android:layout_height">40dp</item>
+
+        <item name="android:textSize">12sp</item>
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <style name="RESULT.right">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+</resources>
